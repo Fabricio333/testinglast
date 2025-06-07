@@ -4,6 +4,7 @@ plugins {
 }
 
 android {
+    namespace 'com.example.passwordmanager'
     compileSdk 34
 
     defaultConfig {
