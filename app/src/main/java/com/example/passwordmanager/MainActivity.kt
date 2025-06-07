@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
             AppNavigator.navigateTo(this, DashboardActivity::class.java)
         }
         finish()
+        setContentView(R.layout.activity_main)
     }
 }

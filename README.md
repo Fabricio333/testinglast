@@ -35,6 +35,7 @@ This repository outlines the architecture for a native Android password manager 
   ```
 
 The BIP‑39 English wordlist is provided in `app/src/main/assets/bip39_english.txt` with all 2048 words included.
+=======
 
 ## Future Enhancements
 - Logout and wipe button.
@@ -44,3 +45,5 @@ The BIP‑39 English wordlist is provided in `app/src/main/assets/bip39_english.
 
 ## Project Status
 This repository now contains a working sample implementation of the password manager app. The full BIP‑39 wordlist is bundled for correct mnemonic generation.
+=======
+This repository contains a minimal implementation of the password manager app. The BIP-39 wordlist in `app/src/main/assets/bip39_english.txt` is truncated for brevity.
